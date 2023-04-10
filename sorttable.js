@@ -41,7 +41,11 @@ sorttable = {
     });
     
   },
-  formatCash: function(n) {
+  formatCash: function(thinEnabled,n) {
+
+    let data = GameController.instance.authorizeData;
+    if (!(thinEnabled)) 
+        return n;
 
     let newVal = Math.floor( n );
     let precesion = 3;
