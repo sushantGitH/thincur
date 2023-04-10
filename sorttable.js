@@ -43,7 +43,6 @@ sorttable = {
   },
   formatCash: function(thinEnabled,n) {
 
-    let data = GameController.instance.authorizeData;
     if (!(thinEnabled)) 
         return n;
 
