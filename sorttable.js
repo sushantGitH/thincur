@@ -43,9 +43,6 @@ sorttable = {
   },
   formatCash: function(thinEnabled,n) {
 
-    console.log("changesss")
-    return KMBT;
-
     if (!(thinEnabled)) 
         return n;
 
